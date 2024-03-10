@@ -26,7 +26,7 @@
 
 ## What is the goal
 
-Make something funny with Bevy and reusable. (like a Scene Manager)
+Make something funny with Bevy and reusable. (like a Scene Manager (like the one in p5.js (yes this one specifically (i really like it))))
 
 ---
 
@@ -141,3 +141,15 @@ Rust is a pretty catchy language that makes me want to keep using it, although l
 and ofc there is a ton of stack overflow questions I checked but we don't care about that lol.
 
 So in conclusion, I think I'll be able to flirt with girls a lot more easily now that I understand the principle of the borrow checker.
+
+---
+
+## PS
+
+After digging more into the Bevy ecosystem, I saw an other manner to create a Game Rig,
+
+By using plugin :'( I underestimate this feature, I think, I will use this instead in the future lol.
+
+![](readme_assets/whyididntstartwiththat.png)
+
+So if I want to see an other manner to make a simple video game, I can see [this](https://github.com/rsaihe/zenith/) or something else, there are so many ways to dev a game with Bevy...
