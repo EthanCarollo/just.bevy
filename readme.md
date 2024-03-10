@@ -18,6 +18,10 @@ I also hate Bevy, because there have been a lot of changes in a short time, maki
 
 There is a good 2D Renderer in it, yes it's a normal point for a lot of game engine but when I dug deep into game engine, it was complicated to find a good game engine with a simple and understandable 2D graphics API.
 
+And ofc, i hate a little bit rust for this :
+![](readme_assets/i_hate_rust.png)
+(i have a 256gb macbook lol..)
+
 ---
 
 ## What is inside this POC ?
@@ -55,12 +59,12 @@ To be more precise, this is my life before and after Zed :
 
 ![](readme_assets/before_after.jpg)
 
-So i don't recommend it and i just don't understand the fck why everyone is talking about this actually saying it already killed vscode
+So i don't recommend it and i just don't understand the fck why everyone is talking about this actually saying it already killed vscode (and i can't use it on my arch)
 
 - #### VSCode
 
-I love VSCode but, I don't want to take 20 min to configure it too, so I didn't test it, but I think it can be a pretty good solution if we want to dev in Rust
+I love VSCode but, I don't want to take 20 min to configure it too, so I didn't test it, but I think it can be a pretty good solution if we want to dev in Rust cause of its versatility and large ecosystems of plugins.
 
 - #### Rust Rover ❤️
 
-My preferred one, just install it, launch it, it works. Good autocompletion, shortcuts works (and ofc you can set differents keymaps with plugins), good. Slower than zed ofc but it shortcuts works at least. Thanks JetBrain
+My preferred one, just install it, launch it, it works. Good autocompletion, shortcuts works (and ofc you can set differents keymaps with plugins), good. Slower than zed ofc but it shortcuts works at least. Thanks JetBrain to make such cool things for poor students.

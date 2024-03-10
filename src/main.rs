@@ -1,12 +1,13 @@
 use bevy::{prelude::*};
-use bevy::render::texture::ImageSampler;
 use bevy::window::WindowResolution;
 use bevy_pixel_camera::{
     PixelCameraPlugin, PixelZoom, PixelViewport
 };
-use bevy::window::WindowResized;
-use bevy::window::WindowMode;
-// Very good ressources overall : https://bevy-cheatbook.github.io/introduction.html
+// Very good ressources overall for Bevy: https://bevy-cheatbook.github.io/introduction.html
+
+mod et_scene;
+use et_scene::base::ETScene;
+
 
 fn main() {
     let window_resolution: WindowResolution =
@@ -32,26 +33,26 @@ fn update() {
     // classic update function
 }
 
-fn setup(mut commands: Commands, asset_server: Res<AssetServer>) {
-
-    commands.spawn((
-        Camera2dBundle::default(),
-        PixelZoom::FitSize {
-            width: 320,
-            height: 180,
-        },
-        PixelViewport,
-    ));
-
-    commands.spawn(SpriteBundle {
+fn setup(commands: Commands, asset_server: Res<AssetServer>) {
+    let _sprite: SpriteBundle = SpriteBundle {
         transform: Transform {
             translation: Vec3::new(0.0, 0.0, 0.0),
             scale: Vec3::splat(5.0),
-            ..default()
+            ..Default::default()
         },
         texture: asset_server.load("test.png"),
+        ..Default::default()
+    };
+    let _scene: ETScene = ETScene::new(commands)
+        .add_entity((
+            Camera2dBundle::default(),
+            PixelZoom::FitSize {
+                width: 320,
+                height: 180,
+            },
+            PixelViewport,
+        )).add_entity(_sprite);
 
-        ..default()
-    });
 }
+
 
