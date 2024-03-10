@@ -26,7 +26,7 @@
 
 ## What is the goal
 
-Make something funny with Bevy.
+Make something funny with Bevy and reusable. (like a Scene Manager)
 
 ---
 
@@ -124,7 +124,9 @@ My preferred one, just install it, launch it, it works. Good autocompletion, sho
 
 ## Conclusion
 
-Rust is a pretty catchy language that makes me want to keep using it, although lifetime management is a bit scary (and is sometimes more complicated than just managing memory), that doesn't make it any less of a good language.
+It's a big failure, there is no feature reusable in this repo, but only documentation about how to understand my pain.
+
+Rust is a pretty catchy language that makes me want to keep using it, although lifetime management is a bit scary (and is sometimes more complicated than just managing memory if we are beginner), that doesn't make it any less of a good language.
 
 #### Sources I used to make this repo
 - [...borrowchecker](https://www.youtube.com/watch?v=Nuba5LNy5cY)
